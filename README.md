@@ -1,101 +1,26 @@
-# 05 Third-Party APIs: Work Day Scheduler
+## ProcrastiNot - Work Day Scheduler
 
-## Your Task
+[Click here to view live project]([https://pchandler858.github.io/Procrastinot/](https://pchandler858.github.io/Procrastinot/))
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+This is a simple web-based calendar application designed to schedule a work day. It is built using HTML, CSS, and JavaScript and utilizes jQuery, Bootstrap, Font Awesome, and Google Fonts.
 
-## User Story
+### Features
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+-   Displays current date and time.
+-   Allows users to input and save text in hourly blocks from 9AM to 3PM.
+-   Blocks are color-coded based on whether they represent the past, present, or future.
 
-## Acceptance Criteria
+### Installation
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+To use the Work Day Scheduler, simply open the `index.html` file in your web browser. There is no need to install any additional software or libraries.
 
-The following animation demonstrates the application functionality:
+### Usage
 
-<!-- @TODO: create ticket to review/update image) -->
+Upon loading the application, the current date and time will be displayed at the top of the page. Each hourly block contains a text input field and a save button. Users can input their plans for each hour into the text input field and save their entry by clicking the corresponding save button.
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+The application will automatically color-code the blocks based on the current time. Blocks representing past hours will be gray, blocks representing the current hour will be red, and blocks representing future hours will be green.
 
-## Grading Requirements
+## Demonstration
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> - A repository that has no code
->
-> - A repository that includes a unique name but nothing else
->
-> - A repository that includes only a README file but nothing else
->
-> - A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-- Satisfies all of the above acceptance criteria plus the following:
-
-  - Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-- Application deployed at live URL
-
-- Application loads with no errors
-
-- Application GitHub URL submitted
-
-- GitHub repo contains application code
-
-### Application Quality: 15%
-
-- Application user experience is intuitive and easy to navigate
-
-- Application user interface style is clean and polished
-
-- Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-- Repository has a unique name
-
-- Repository follows best practices for file structure and naming conventions
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages
-
-- Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the deployed application
-
-- The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![screen-gif](/assets/demo.gif)
