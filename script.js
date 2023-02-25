@@ -1,21 +1,16 @@
 $(function () {
-  // Update current time every second
+  // Get current time using Day.js and display in the header. Update current time every second.
   setInterval(function () {
-    // Get current time using Day.js
     var currentTime = dayjs().format("h:mm:ss A");
-
-    // Display current time in the header
     $("#currentTime").text(currentTime);
   }, 1000); // Update every second
 
   // Get current hour in 24-hour format using Day.js
   var currentHour = dayjs().format("H");
-  console.log("Current Hour: ", currentHour);
 
   // Apply past, present, or future class to each time-block
   $(".time-block").each(function () {
     var hour = $(this).attr("id").split("-")[1];
-    console.log(hour);
     if (hour < currentHour) {
       $(this).addClass("past");
     } else if (hour == currentHour) {
