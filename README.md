@@ -1,15 +1,14 @@
 ## ProcrastiNot - Work Day Scheduler
 
-[Click here to view live project]([https://pchandler858.github.io/Procrastinot/](https://pchandler858.github.io/Procrastinot/))
-
+[Click here to view live project](https://pchandler858.github.io/Procrastinot/)
 
 This is a simple web-based calendar application designed to schedule a work day. It is built using HTML, CSS, and JavaScript and utilizes jQuery, Bootstrap, Font Awesome, and Google Fonts.
 
 ### Features
 
--   Displays current date and time.
--   Allows users to input and save text in hourly blocks from 9AM to 3PM.
--   Blocks are color-coded based on whether they represent the past, present, or future.
+- Displays current date and time.
+- Allows users to input and save text in hourly blocks from 9AM to 3PM.
+- Blocks are color-coded based on whether they represent the past, present, or future.
 
 ### Installation
 
