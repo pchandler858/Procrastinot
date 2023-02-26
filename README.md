@@ -22,4 +22,4 @@ The application will automatically color-code the blocks based on the current ti
 
 ## Demonstration
 
-![screen-gif](/assets/demo.gif)
+![screen-gif](assets/demo.gif)
